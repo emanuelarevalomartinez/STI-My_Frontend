@@ -1,0 +1,3 @@
+
+
+export * from './professor.content'
