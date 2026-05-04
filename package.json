@@ -1,7 +1,10 @@
 {
-  "name": "STI-Project-Frontend",
+  "name": "STI-My_Frontend",
   "private": true,
   "version": "0.0.1",
+  "description": "Frontend application for STI (Intelligent Tutoring System), an academic platform focused on intelligent tutoring, personalized learning, educational resource management, role-based workflows, and AI-assisted academic interaction.",
+  "author": "Emanuel Arévalo Martínez",
+  "license": "UNLICENSED",
   "type": "module",
   "scripts": {
     "dev": "vite",
