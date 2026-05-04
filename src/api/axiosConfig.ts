@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { deleteAuthTokenLocalStorage, getAuthTokenLocalStore, setAuthTokenLocalStore } from '../store/browser';
 
-axios.defaults.baseURL = 'http://localhost:3000/api';
+axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL;
 axios.defaults.headers.common['Content-Type'] = 'application/json';
 
 export const setAuthToken = (token: string | null) => {
